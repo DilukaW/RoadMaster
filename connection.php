@@ -1,10 +1,10 @@
 <?php
 
 //connection to the Database
-$dbhost = "localhost";
-$dbuser = "root";
+$dbhost = "*****";
+$dbuser = "****";
 $dbpass = "";
-$dbname = "pusl2020";
+$dbname = "*****";
 
 if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
 {
